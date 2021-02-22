@@ -31,6 +31,9 @@
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
+    <bean id="programmaticTransactionCountryService" class="com.luxoft.springdb.lab3.service.ProgrammaticTransactionCountryServiceImpl">
+    </bean>
+
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource"/>
     </bean>
